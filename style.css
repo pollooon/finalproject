@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1ea;
+}
+
+.header {
+    background-color: #d9c5a1;
+    text-align: center;
+    padding: 40px;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description {
+    background-color: #ece2d0;
+    padding: 30px;
+}
+
+.instructions {
+    font-style: italic;
+}
+
+.timeline-container {
+    text-align: center;
+    padding: 40px;
+}
+
+#slider {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.scene img {
+    width: 500px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+#date {
+    font-style: italic;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+}

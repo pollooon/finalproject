@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polina Engel Final Project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>My Journey Into Motorsport</h1>
+    </div>
+
+    <div class="description">
+
+        <p>
+            Motorsport has played a major role in my life and inspiration.
+            From watching Formula 1 as a child to dreaming about working in
+            racing marketing, my passion for motorsport has continued to grow.
+        </p>
+
+        <a href="https://www.formula1.com/" target="_blank">
+            Visit Formula 1 Official Website
+        </a>
+
+        <ul>
+            <li>Formula 1</li>
+            <li>Ferrari</li>
+            <li>Motorsport Marketing</li>
+            <li>Travel</li>
+        </ul>
+
+        <p class="instructions">
+            Move the slider to explore different moments in my motorsport journey.
+        </p>
+
+    </div>
+
+    <div class="timeline-container">
+
+        <input type="range" min="0" max="3" value="0" id="slider">
+
+        <div class="scene">
+
+            <p id="date"></p>
+
+            <h2 id="title"></h2>
+
+            <img id="image" src="" alt="timeline image">
+
+            <p id="text"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
